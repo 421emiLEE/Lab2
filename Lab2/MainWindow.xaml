@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Name ="SpeedCanvas">
+        <Label x:Name ="speedlimitlbl" Content="What is your speed: " Canvas.Left="143" Canvas.Top="174"/>
+        <TextBox x:Name ="speedTxtBox" Canvas.Left="280" TextWrapping="Wrap" Text="" Canvas.Top="178" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label x:Name ="speedlbl" Content="Enter speed limit: " Canvas.Left="143" Canvas.Top="217"/>
+        <TextBox x:Name ="speedlimitTxtBox" Canvas.Left="280" TextWrapping="Wrap" Text="" Canvas.Top="221" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button Content="Button" Canvas.Left="202" Canvas.Top="276" HorizontalAlignment="Left" VerticalAlignment="Top" Width="162" Click="Button_Click"/>
+        <TextBox x:Name ="resultTxtBox" Canvas.Left="435" TextWrapping="Wrap" Text="" Canvas.Top="199" Width="120"/>
+    </Canvas>
+</Window>
